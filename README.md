@@ -2,7 +2,7 @@
 
 ## Local environment sertup
 ## Run
-```git clone ttps://github.com/ket-c/items_per_page_test.git```
+```git clone https://github.com/ket-c/items_per_page_test.git```
 
 ```cd  items_per_page_test```
 
