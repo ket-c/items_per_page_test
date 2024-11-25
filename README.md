@@ -14,6 +14,10 @@
 
     cp .env.example .env
 
+<br>
+
+    php artisan key:generate
+
 - update .env to use mysql and update your DB credentials as well
   
       DB_CONNECTION=mysql
@@ -24,8 +28,13 @@
 
     php artisan db:seed
 
-- Optional
+<br>
 
-```npm install```
+    npm install
+<br>
 
-```npm run dev```
+    php artisan serve
+<br>
+
+    npm run dev
+
