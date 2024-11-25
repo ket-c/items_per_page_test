@@ -1,18 +1,30 @@
 
 
-## Local environment sertup
+# Local environment setup
 ## Run
-```git clone https://github.com/ket-c/items_per_page_test.git```
 
-```cd  items_per_page_test```
+    git clone https://github.com/ket-c/items_per_page_test.git
+<br>
 
-```composer install```
+    cd  items_per_page_test
+<br>
 
-```php artisan migrate```
+    composer install
+<br>
 
-```php artisan db:seed```
+    cp .env.example .env
 
-Optional
+- update .env to use mysql and update your DB credentials as well
+  
+      DB_CONNECTION=mysql
+<br>
+
+    php artisan migrate
+<br>
+
+    php artisan db:seed
+
+- Optional
 
 ```npm install```
 
